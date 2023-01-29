@@ -7,3 +7,50 @@
 *::after {
   box-sizing: border-box;
 }
+
+/* 홈 - 비주얼 */
+
+.visual {
+  background-color: red;
+  height: 370px;
+  position: relative;
+}
+
+.visual__image {
+  width: 100%;
+  height: 100%;
+  /* 가로세로비율유지 */
+  object-fit: cover;
+}
+
+.visual__button {
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.visual__button--left {
+  left: 350px;
+}
+
+.visual__button--right {
+  right: 350px;
+}
+
+.visual__svg {
+  display: block;
+}
+
+.visual__svg--left {
+  margin: 0 16px 0 14px;
+}
+
+.visual__svg--right {
+  margin: 0 14px 0 16px;
+}
